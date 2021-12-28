@@ -10,8 +10,8 @@ pd.set_option('display.max_columns', None) # enables the option to show every co
 pd.set_option('display.max_rows', None)
 
 
-
-df = pd.read_csv(r"C:\Users\Curt\Downloads\Diabetes.csv")
+#dataset from https://www.kaggle.com/serhatyzc/diabetes-prediction-with-cart/data
+df = pd.read_csv(r"...\Diabetes.csv")
 
 df = df.rename(columns={'Glucose' : 'Glucose Level', 'Insulin' : 'Insulin Level'})
 
